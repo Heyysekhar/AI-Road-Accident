@@ -1,0 +1,24 @@
+{
+  "best_model": "RandomForest",
+  "accuracy": {
+    "RandomForest": 94.85,
+    "GradientBoosting": 94.3,
+    "LogisticRegression": 83.3
+  },
+  "features": [
+    "hour",
+    "day_of_week",
+    "weather",
+    "road_condition",
+    "speed",
+    "traffic_density",
+    "driver_age",
+    "driver_experience",
+    "visibility",
+    "temperature"
+  ],
+  "dataset_size": 10000,
+  "train_size": 8000,
+  "test_size": 2000,
+  "accident_rate_pct": 33.5
+}

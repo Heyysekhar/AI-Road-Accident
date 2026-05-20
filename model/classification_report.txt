@@ -1,0 +1,11 @@
+Best Model: RandomForest
+Accuracy: 94.60%
+
+              precision    recall  f1-score   support
+
+ No Accident       0.97      0.95      0.96      1351
+    Accident       0.90      0.94      0.92       649
+
+    accuracy                           0.95      2000
+   macro avg       0.94      0.94      0.94      2000
+weighted avg       0.95      0.95      0.95      2000

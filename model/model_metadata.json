@@ -1,0 +1,41 @@
+{
+  "best_model": "RandomForest",
+  "random_forest_accuracy": 0.946,
+  "gradient_boosting_accuracy": 0.941,
+  "best_accuracy": 0.946,
+  "training_samples": 8000,
+  "test_samples": 2000,
+  "features": [
+    "hour",
+    "day_of_week",
+    "weather",
+    "road_condition",
+    "speed",
+    "traffic_density",
+    "driver_age",
+    "driver_experience",
+    "visibility",
+    "temperature"
+  ],
+  "feature_importance": {
+    "weather": 0.2341835688466734,
+    "road_condition": 0.23258409403497932,
+    "speed": 0.22874204955469812,
+    "visibility": 0.16153179058197065,
+    "traffic_density": 0.04352713240216404,
+    "driver_age": 0.03298872604305246,
+    "temperature": 0.023616583770577116,
+    "driver_experience": 0.017789150662811906,
+    "hour": 0.015918156320963908,
+    "day_of_week": 0.009118747782109065
+  },
+  "class_distribution": {
+    "0": 6558,
+    "1": 3442
+  },
+  "model_files": {
+    "best": "accident_model.pkl",
+    "random_forest": "random_forest_model.pkl",
+    "gradient_boosting": "gradient_boosting_model.pkl"
+  }
+}
